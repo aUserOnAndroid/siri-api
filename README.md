@@ -34,4 +34,4 @@ Contents
 - run.ps1 / run.bat - helper scripts to run the server on Windows
 - .env.example - environment variables (API key)
 
-See examples/shortcuts/README.md for step-by-step Shortcut instructions and how to map a voice phrase to a Shortcut in iOS.
+See (examples/shortcuts/README.md) for step-by-step Shortcut instructions and how to map a voice phrase to a Shortcut in iOS.
