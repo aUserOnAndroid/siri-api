@@ -3,5 +3,4 @@
 $env:FLASK_APP = "app.main"
 $env:FLASK_ENV = (Get-Item -Path env:FLASK_ENV -ErrorAction SilentlyContinue).Value
 if (-not $env:FLASK_ENV) { $env:FLASK_ENV = "development" }
-$env:API_KEY = (Get-Item -Path env:API_KEY -ErrorAction SilentlyContinue).Value
 python -m flask run --host=0.0.0.0 --port=5000
